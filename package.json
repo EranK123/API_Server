@@ -1,0 +1,33 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description":"park4you server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "files": [
+    "index.d.ts"
+  ],
+  "peerDependencies": {
+    "@firebase/app-types": "0.x"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gal25/API_Server.git"
+  },
+  "author":"",
+  "license": "BSL-1.0",
+  "bugs": {
+    "url": "https://github.com/Gal25/API_Server.git"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^8.10.1",
+    "nodemon": "^2.0.20"
+  }
+}
