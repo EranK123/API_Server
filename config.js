@@ -28,6 +28,6 @@ module.exports = {
         databaseURL: DATABASE_URL,
         projectId: PROJECT_ID,
         messagingSenderId: MESSAGING_SENDER_ID,
-        appId: APP_ID,
+        appId: APP_ID
     }
 }

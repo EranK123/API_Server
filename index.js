@@ -13,7 +13,6 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use('/api', userRoutes.routes);
-app.use('/api', stationRoutes.routes);
 
 app.listen(config.port,
      ()=> console.log('19:' + config.port));
